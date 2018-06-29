@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partials/head %>
+</head>
+
+
+  <header>
+      <% include ../partials/header %>
+  </header>
+
+<script src="/scripts/BABWhales.js"></script>
+
+<style>
+  img {
+      display: block;
+      margin: auto;
+      text-align: center;
+  }
+  #grass{
+    background-image: url(images/grass.png);
+    background-repeat: repeat;
+    position:fixed;
+    bottom: 0;
+    left:0;
+    height: 50px;
+    visibility: hidden;
+  }
+  .resize>img{
+    height: 150px;
+    position:fixed;
+    bottom:50px;
+    left:0;
+  }
+  .logs>text{
+    position:fixed;
+    bottom:210px;
+    left:0;
+    font-family:URW Chancery L, cursive;
+    font-size: 200%;
+  }
+</style>
+
+<body>
+
+  <div id="loading">
+    <img src="images/babouche.png" alt="Loading" class="spinning"/>
+    <h1 style="text-align:center;">Chargement en cours ...</h1>
+  </div>
+
+<div id="corps">
+  <main id="whales" class="container-fluid">
+    <h1 style="text-align:center;margin-top:10px;">Run faster to be the richest BAB holder !</h1>
+    <h2 id="winner" style="text-align:center;margin-top:90;"></h2>
+    <div id="avatars" class="resize"></div>
+    <div  id="grass" class="col-xs-12">
+    </div>
+  </main>
+</div>
+
+</body>
+</html>

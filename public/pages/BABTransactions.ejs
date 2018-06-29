@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partials/head %>
+</head>
+
+<header>
+    <% include ../partials/header %>
+</header>
+
+<style>
+  img {
+      display: block;
+      margin: auto;
+      text-align: center;
+  }
+</style>
+
+<body>
+
+  <div id="loading">
+    <img src="images/babouche.png" alt="Loading" class="spinning"/>
+    <h1 style="text-align:center;">Chargement en cours ...</h1>
+  </div>
+
+  <div id="corps">
+    <main>
+      <script src="/scripts/BABTransactions.js"></script>
+      <style>
+        body {
+          overflow:hidden;
+           margin:0;
+        }
+
+        text {
+          font-family: sans-serif;
+          pointer-events: none;
+        }
+      </style>
+    </main>
+  </div>
+
+</body>
+</html>

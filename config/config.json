@@ -1,0 +1,16 @@
+{
+"dev" :
+  {
+    "serverport" : 1337,
+    "serverip" : "stub value",
+    "contractaddress" : "stub value",
+    "serverwallet" : "stub value",
+    "serverprivatekey" : "stub value",
+    "originalethfunding" : "0.001",
+    "originalbabfunding" : "0.001",
+    "web3httpprovider" : "stub value",
+    "userAPIIP" : "stub value",
+    "userAPILogin" : "stub value",
+    "userAPIPassword" : "stub value"
+  }
+}

@@ -1,0 +1,24 @@
+.spinning{
+    animation:spin .5s linear infinite;
+}
+
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.bubbleChart {
+  min-width: 100px;
+  max-width: 700px;
+  height: 700px;
+  margin: 0 auto;
+}
+.bubbleChart svg{
+  background-color: white;
+}
+#viring{
+    position: fixed;
+    top: 10%;
+    text-align: center;
+    bottom: 10%;
+    right: 10%;
+    left: 10%;
+    opacity: 0.7;
+}
